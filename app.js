@@ -7,7 +7,7 @@ const bodyParser = require("body-parser")
 const mongoose = require("./database");
 const session = require("express-session");
 
-if(port==null || port=""){
+if(port==null || port==""){
   port=3000
 }
 const server = app.listen(port, () => console.log("Server listening on port " + port));
